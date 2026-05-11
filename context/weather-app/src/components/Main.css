@@ -1,0 +1,36 @@
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.loading {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,90 @@
+.day-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
+}
+
+.day-card:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+.day-card h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.day-card p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.day-card strong {
+  color: #ff9800;
+  font-weight: 700;
+}
+
+.weather-icon {
+  width: 60px;
+  height: 60px;
+  margin: 8px auto;
+}
+
+.temp-section {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.temp-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.temp-info {
+  margin: 8px 0;
+}
+
+.temp-day,
+.temp-night {
+  margin: 4px 0;
+  font-size: 12px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.temp-label {
+  color: #999;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.temp-value {
+  color: #ff9800;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.weather-condition {
+  margin: 8px 0 0 0;
+  color: #555;
+  font-size: 12px;
+  font-weight: 500;
+}
